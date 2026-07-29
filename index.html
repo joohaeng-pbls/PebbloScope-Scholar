@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PebbloScope Scholar — Constellations</title>
     <meta name="description" content="PebbloScope Scholar — interactive 3D citation star-maps of research literature: schools of thought, debates, the structural gap, and a neighbor explorer." />
+    <!-- Social preview (text card). A per-snapshot og:image needs the hashcode service (Phase B) —
+         static hosting can't emit per-URL meta, and og:image needs an absolute URL the multi-host
+         build can't know. The service serves /snapshot/<hash> with the snapshot's own image + title. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PebbloScope Scholar" />
+    <meta property="og:title" content="PebbloScope Scholar — citation constellations" />
+    <meta property="og:description" content="Interactive 3D citation star-maps of research literature — schools of thought, debates, and a shareable snapshot of any view." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="PebbloScope Scholar — citation constellations" />
+    <meta name="twitter:description" content="Interactive 3D citation star-maps of research literature — schools of thought, debates, and a shareable snapshot of any view." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <!-- Korean face (Pretendard). Dynamic-subset only fetches the Hangul actually rendered → no cost until Korean text appears. Dropped by the artifact CSP → falls back to the system Korean gothic in --kr. -->
     <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css" />
-    <script type="module" crossorigin src="./assets/index-DeUvfzwf.js"></script>
+    <script type="module" crossorigin src="./assets/index-B8TMUTUd.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-B0WrDg7O.css">
   </head>
   <body>
